@@ -1,0 +1,60 @@
+{
+  "room": {
+    "roomId": 0,
+    "ownerUid": 0
+  },
+  "lxmusic": {
+    "api": {
+      "host": "http://localhost",
+      "port": 23330,
+      "enabled": true
+    },
+    "defaultSource": "tx",
+    "maxPlayTime": 300,
+    "preloadTime": 5,
+    "retryTimes": 2
+  },
+  "obs": {
+    "enabled": true,
+    "port": 8888,
+    "showLyrics": true
+  },
+  "limits": {
+    "maxSongsPerUser": 3,
+    "maxQueueSize": 50,
+    "cooldown": {
+      "default": 30,
+      "vip": 10,
+      "admin": 0,
+      "owner": 0
+    }
+  },
+  "gift": {
+    "enabled": true,
+    "minValue": 10,
+    "autoSongs": [
+      "晴天",
+      "青花瓷",
+      "七里香",
+      "稻香",
+      "告白气球"
+    ]
+  },
+  "permissions": {
+    "点歌": 0,
+    "优先": 1,
+    "切歌": 1,
+    "插播": 2,
+    "清空": 2,
+    "拉黑": 2,
+    "切源": 2,
+    "设置": 3
+  },
+  "features": {
+    "saveHistory": true,
+    "maxHistorySize": 1000,
+    "announceNowPlaying": true,
+    "enableStatistics": true,
+    "autoCleanHistory": true
+  }
+}

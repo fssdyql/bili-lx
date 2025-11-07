@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>点歌系统 - OBS显示</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- 主播放器卡片 -->
+    <div id="player" class="player-card hidden">
+        <div class="player-content">
+            <!-- 专辑封面 -->
+            <div class="album-cover">
+                <img class="album-img" id="album-pic" src="" alt="">
+                <div class="album-icon" id="album-icon">🎵</div>
+                <div class="playing-indicator">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            
+            <!-- 歌曲信息 -->
+            <div class="song-info">
+                <div class="song-title">
+                    <marquee id="song-name-marquee" class="hidden">
+                        <span id="song-name-marquee-text"></span>
+                    </marquee>
+                    <span id="song-name-static">等待播放...</span>
+                </div>
+                <div class="song-artist" id="song-artist">-</div>
+                <div class="requester">
+                    <span class="requester-icon">👤</span>
+                    <span id="requester-name">-</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 进度条 -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress"></div>
+                <div class="progress-glow"></div>
+            </div>
+            <div class="time-display">
+                <span id="current-time">0:00</span>
+                <span id="total-time">0:00</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 歌词显示 -->
+    <div id="lyrics" class="lyrics-container hidden">
+        <div class="lyric-line current" id="lyric-current"></div>
+        <div class="lyric-line next" id="lyric-next"></div>
+        <div class="lyric-line translation" id="lyric-translation"></div>
+    </div>
+
+    <!-- 队列显示 -->
+    <div id="queue" class="queue-card hidden">
+        <div class="queue-header">
+            <span class="queue-icon">📋</span>
+            <span class="queue-title">播放队列</span>
+            <span class="queue-count" id="queue-count">0</span>
+        </div>
+        <div class="queue-list" id="queue-list"></div>
+    </div>
+
+    <!-- 新请求弹出动画 -->
+    <div id="request-popup" class="request-popup hidden">
+        <div class="popup-content">
+            <div class="popup-icon" id="popup-icon">🎵</div>
+            <div class="popup-text">
+                <span class="popup-user" id="popup-user"></span>
+                <span class="popup-action" id="popup-action">点了</span>
+                <span class="popup-song" id="popup-song"></span>
+            </div>
+        </div>
+        <div class="popup-particles"></div>
+    </div>
+
+    <!-- 礼物动画容器 -->
+    <div id="gift-container" class="gift-container"></div>
+
+    <!-- 通知容器 -->
+    <div id="notification-container" class="notification-container"></div>
+
+    <!-- 统计信息（可选显示） -->
+    <div id="statistics" class="statistics-card hidden">
+        <div class="stat-item">
+            <span class="stat-label">今日播放</span>
+            <span class="stat-value" id="stat-today">0</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">总计播放</span>
+            <span class="stat-value" id="stat-total">0</span>
+        </div>
+    </div>
+
+    <!-- 加载动画 -->
+    <div id="loading" class="loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">连接中...</div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

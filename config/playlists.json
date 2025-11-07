@@ -1,0 +1,23 @@
+{
+  "default": [
+    {"name": "青花瓷", "singer": "周杰伦"},
+    {"name": "晴天", "singer": "周杰伦"},
+    {"name": "七里香", "singer": "周杰伦"},
+    {"name": "稻香", "singer": "周杰伦"},
+    {"name": "告白气球", "singer": "周杰伦"}
+  ],
+  "special": {
+    "开播": [
+      {"name": "起风了", "singer": "买辣椒也用券"},
+      {"name": "打上花火", "singer": "DAOKO"}
+    ],
+    "下播": [
+      {"name": "再见", "singer": "张震岳"},
+      {"name": "明天会更好", "singer": "群星"}
+    ],
+    "生日": [
+      {"name": "生日快乐", "singer": "群星"},
+      {"name": "祝你生日快乐", "singer": "群星"}
+    ]
+  }
+}

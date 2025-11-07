@@ -1,0 +1,42 @@
+{
+  "name": "bili-lx",
+  "version": "1.0.0-fix2",
+  "description": "B站直播间LX Music点歌机器人 - 重构版",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node start.js",
+    "run": "node bot.js",
+    "check": "node check-before-start.js",
+    "setup": "node setup.js",
+    "test-obs": "node test-obs.js",
+    "dev": "nodemon bot.js",
+    "clean": "node start.js clean"
+  },
+  "keywords": [
+    "bilibili",
+    "lxmusic",
+    "music-bot",
+    "live-streaming"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "tiny-bilibili-ws": "latest",
+    "express": "^4.18.2",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bilibili-lxmusic-bot"
+  }
+}
