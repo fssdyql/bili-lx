@@ -33,7 +33,7 @@ cp config/config.json
 4.启动程序
 npm start
 
-📝 配置说明
+## 📝 配置说明
 必需配置
 room.roomId: B站直播间号
 room.ownerUid: 主播UID
@@ -47,9 +47,9 @@ Cookie配置：支持获取完整用户名
 !切歌 - 切换下一首（需要权限）
 !帮助 - 查看所有命令
 
-🤝 贡献
+## 🤝 贡献
 欢迎提交 Issue 和 Pull Request！
 
-⚠️ 注意事项
+## ⚠️ 注意事项
 请勿上传包含敏感信息的配置文件
 Cookie 信息请妥善保管
