@@ -2,6 +2,12 @@
 
 一个功能完善的B站直播间点歌机器人，通过弹幕控制 LX Music 播放音乐。
 
+[![github](https://img.shields.io/badge/GitHub-项目主页-blue)](https://github.com/fssdyql/bili-lx)
+
+[![CHANGELOG](https://img.shields.io/badge/GitHub-更新日志-Green)](https://github.com/fssdyql/bili-lx/blob/main/CHANGELOG.md
+)
+
+
 ## ✨ 主要功能
 
 - 🎵 弹幕点歌控制
