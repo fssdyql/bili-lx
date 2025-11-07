@@ -20,35 +20,40 @@
 
 ### 安装步骤
 
-1. 克隆项目
-git clone https://github.com/fssdyql/bili-lx.git
+1. 克隆项目  
+git clone https://github.com/fssdyql/bili-lx.git  
 cd bili-lx
 
-2.安装依赖
+2.安装依赖  
 npm install
 
-3.配置文件
+3.配置文件  
 cp config/config.json
 
-4.启动程序
+4.启动程序  
 npm start
 
 ## 📝 配置说明
-必需配置
-room.roomId: B站直播间号
-room.ownerUid: 主播UID
-可选配置
-Cookie配置：支持获取完整用户名
+### 必需配置
+room.roomId: B站直播间号\
+room.ownerUid: 主播UID\
+
+**可选配置**\
+Cookie配置：支持获取完整用户名\
 白名单/黑名单：用户权限管理
-🎮 使用方法
-弹幕命令
-!点歌 歌名 - 点歌
-!歌单 - 查看队列
-!切歌 - 切换下一首（需要权限）
+## 🎮 使用方法
+弹幕命令\
+!点歌 歌名 - 点歌\
+!歌单 - 查看队列\
+!切歌 - 切换下一首（需要权限）\
 !帮助 - 查看所有命令
 
 ## 🤝 贡献
 欢迎提交 Issue 和 Pull Request！
+
+## 更新日志 (Changelog)
+
+[点击查看详细的更新历史](./CHANGELOG.md)
 
 ## ⚠️ 注意事项
 请勿上传包含敏感信息的配置文件
