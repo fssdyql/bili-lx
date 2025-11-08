@@ -2,8 +2,20 @@
 
 一个功能完善的B站直播间点歌机器人，通过弹幕控制 LX Music 播放音乐。
 
-[![github](https://img.shields.io/badge/GitHub-项目主页-blue)](https://github.com/fssdyql/bili-lx)  [![CHANGELOG](https://img.shields.io/badge/GitHub-更新日志-Green)](https://github.com/fssdyql/bili-lx/blob/main/CHANGELOG.md)    [![CHANGELOG](https://img.shields.io/badge/GitHub-lx_music-blue)](https://github.com/lyswhut/lx-music-desktop)
+[![github](https://img.shields.io/badge/GitHub-项目主页-blue)](https://github.com/fssdyql/bili-lx)  [![CHANGELOG](https://img.shields.io/badge/GitHub-更新日志-Green)](https://github.com/fssdyql/bili-lx/blob/main/CHANGELOG.md)    [![CHANGELOG](https://img.shields.io/badge/GitHub-lx_music-blue)](https://github.com/lyswhut/lx-music-desktop)  
 
+## ⚠️ 重要声明
+
+**使用前必读：[免责声明](./DISCLAIMER.md)**
+
+本软件：
+- ❌ 不提供任何音乐资源
+- ❌ 不提供获取版权音乐的方法  
+- ❌ 不鼓励在直播中使用版权音乐
+- ✅ 仅提供技术实现
+- ✅ 用户需自行解决音源和版权问题
+ 
+## 使用本软件前，请仔细阅读并理解本免责声明的全部内容。使用本软件即表示您已阅读、理解并同意接受本免责声明的所有条款。
 
 ## ✨ 主要功能
 
