@@ -51,7 +51,7 @@ npm start
 ## 📝 配置说明
 ### 必需配置
 room.roomId: B站直播间号\
-room.ownerUid: 主播UID\
+room.ownerUid: 主播UID
 
 **可选配置**\
 Cookie配置：支持获取完整用户名\
