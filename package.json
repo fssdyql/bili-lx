@@ -18,7 +18,7 @@
     "music-bot",
     "live-streaming"
   ],
-  "author": "Your Name",
+  "author": "FSSDYQL",
   "license": "MIT",
   "dependencies": {
     "tiny-bilibili-ws": "latest",
