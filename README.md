@@ -63,6 +63,10 @@ Cookie配置：支持获取完整用户名\
 !切歌 - 切换下一首（需要权限）\
 !帮助 - 查看所有命令
 
+## cookie配置教程
+1.导出B站网页端cookie为json（推荐使用Cookie-Editor插件）\
+2.在`config`目录下新建文件`cookies.json`并填入刚刚复制的文本
+
 ## 🤝 贡献
 欢迎提交 Issue 和 Pull Request！
 
