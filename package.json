@@ -1,7 +1,7 @@
 {
   "name": "bili-lx",
   "version": "1.0.0-fix2",
-  "description": "B站直播间LX Music点歌机器人 - 重构版",
+  "description": "B站直播间LX Music点歌机器人",
   "main": "bot.js",
   "scripts": {
     "start": "node start.js",
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/bilibili-lxmusic-bot"
+    "url": "https://github.com/fssdyql/bili-lx"
   }
 }
