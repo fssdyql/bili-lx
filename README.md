@@ -2,7 +2,7 @@
 
 一个功能完善的B站直播间点歌机器人，通过弹幕控制 LX Music 播放音乐。
 
-[![github](https://img.shields.io/badge/GitHub-项目主页-blue)](https://github.com/fssdyql/bili-lx)  [![CHANGELOG](https://img.shields.io/badge/GitHub-更新日志-Green)](https://github.com/fssdyql/bili-lx/blob/main/CHANGELOG.md)    [![CHANGELOG](https://img.shields.io/badge/GitHub-lx_music-blue)](https://github.com/lyswhut/lx-music-desktop)  
+[![github](https://img.shields.io/badge/GitHub-项目主页-blue)](https://github.com/fssdyql/bili-lx)  [![CHANGELOG](https://img.shields.io/badge/GitHub-更新日志-Green)](https://github.com/fssdyql/bili-lx/blob/main/CHANGELOG.md)    [![LX music](https://img.shields.io/badge/GitHub-lx_music-blue)](https://github.com/lyswhut/lx-music-desktop)    [![releases](https://img.shields.io/badge/GitHub-下载地址-blue)](https://github.com/fssdyql/bili-lx/releases)  
 
 ## ⚠️ 重要声明
 
@@ -33,20 +33,7 @@
 - LX Music Desktop >= 1.17.0
 - B站直播间
 
-### 安装步骤
-
-1. 克隆项目  
-git clone https://github.com/fssdyql/bili-lx.git  
-cd bili-lx
-
-2.安装依赖  
-npm install
-
-3.配置文件  
-cp config/config.json
-
-4.启动程序  
-npm start
+### 仓库代码停止更新，如需使用请前往该仓库发行页
 
 ## 📝 配置说明
 ### 必需配置
